@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="wheather.css">
+</head>
+<body>
+  <div class="weather-card">
+    <div class="search-bar">
+        <button id="location-btn">📍</button>
+        <input id="city-input" type="text" placeholder="Enter city">
+        <button id="search-btn">🔍</button>
+      </div>
+      
+    <div class="weather-info" id="weather-info">
+      <i class="weather-icon">☀️</i>
+      <h1>32°C</h1>
+      <p>City Name</p>
+      <div class="details">
+        <div class="detail">
+          <p>62%</p>
+          <span>Humidity</span>
+        </div>
+        <div class="detail">
+          <p>2.06 m/s</p>
+          <span>Wind Speed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="wheather.js"></script>
+</body>
+</html>
